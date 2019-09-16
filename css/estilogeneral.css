@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.cuerpo1{
+    padding: 50px;
+    margin-left: 300px; 
+    margin-right: 300px;
+}
+
+blockquote{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 17px; 
+    font-size: 20px;
+    border-left: 10px solid #a71930 ;
+    color: #5c5c5c;
+    line-height: 30px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+br{
+    background: #5c5c5c;
+}
+
+ul{
+    margin-left: 40px;
+    list-style: none;
+}
+
+ol{
+    margin-left: 40px;
+}
+
+ul li::before{
+    content: "\2022";
+    color: #a71930;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+}
+
+li{
+    font-size: 19px;
+    line-height: 46px;
+    color: #5c5c5c;
+}
+
+.esp{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
